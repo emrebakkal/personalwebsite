@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #161616;
+    background-image: url('./assets/bg.svg');
+  }
+
+  .header {
+    height: 90px;
+  }
+
+  .cards>div {
+    margin: 0 10px
+  }
+
+  hr {
+    border: 1px solid #212121;
+  }
+
+  .prog-icons>p {
+    margin: 0 10px;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .touch {
+    display: none;
+  }
+
+  .cards>div {
+    margin-bottom: 20px;
+  }
+}
