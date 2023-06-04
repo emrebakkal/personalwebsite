@@ -18,7 +18,7 @@ export default function App() {
       <section id="typer" className='mt-[7%] mb-10'>
         <Typer />
       </section>
-      <h1 className='mt-[7%] mb-10 text-center text-secondary lg:text-3xl text-[20px] font-bold'>
+      <h1 className='mt-[7%] mb-10 text-center text-secondary lg:text-3xl text-[18px] font-bold'>
         Collaborate with brands and agencies to
         <br />
         create impactful results.

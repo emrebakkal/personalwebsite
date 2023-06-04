@@ -34,4 +34,8 @@
   .cards>div {
     margin-bottom: 20px;
   }
+
+  .prog-icons>p {
+    margin: 0 5px;
+  }
 }
